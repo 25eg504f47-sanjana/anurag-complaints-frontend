@@ -17,7 +17,7 @@ export default function Navbar() {
         <Link to={user ? homePathFor(user) : '/login'} className="brand">
           <span className="brand-mark">AU</span>
           <span>
-            sanju University
+            Anurag University
             <small>Complaint Management</small>
           </span>
         </Link>
